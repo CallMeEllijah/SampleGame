@@ -1,0 +1,28 @@
+{
+    "project_type": "javascript",
+    "debugMode": 1,
+    "showFPS": true,
+    "frameRate": 60,
+    "noCache": false,
+    "id": "gameCanvas",
+    "renderMode": 0,
+    "engineDir": "frameworks/cocos2d-html5",
+    "modules": [
+        "cocos2d",
+        "extensions"
+    ],
+    "jsListOrder": [
+        "src/**/*.js"
+    ],
+    "jsList": [
+        "src/components/ToMainScene.js",
+        "src/components/PongGame.js",
+        "src/layers/PongLayer.js",
+        "src/layers/TitleLayer.js",
+        "src/resource.js",
+        "src/scenes/MainScene.js",
+        "src/scenes/TitleScene.js",
+        "src/sprites/Paddle.js",
+        "src/sprites/Ball.js"
+    ]
+}
